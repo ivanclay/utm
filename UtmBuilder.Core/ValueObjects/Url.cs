@@ -1,11 +1,9 @@
-﻿using System.Text.RegularExpressions;
-using UtmBuilder.Core.ValueObjects.Exception;
+﻿using UtmBuilder.Core.ValueObjects.Exception;
 
 namespace UtmBuilder.Core.ValueObjects;
 
 public class Url : ValueObject
 {
-    
     /// <summary>
     /// Create a new URL
     /// </summary>
@@ -20,4 +18,6 @@ public class Url : ValueObject
     /// Address of URL (Website link)
     /// </summary>
     public string Address { get; }
+
+
 }
